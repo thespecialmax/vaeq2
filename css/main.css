@@ -1,0 +1,57 @@
+:root{--cm-templates-bp-tablet:1250}
+.content_wrapper h1,.content_wrapper h2,.content_wrapper h3,.content_wrapper h4,.content_wrapper h5,.content_wrapper h6{margin:0 0 .7em 0}
+.content_wrapper p,.content_wrapper code,.content_wrapper pre,.content_wrapper kbd{margin:0 0 1em 0}
+a{outline:0}
+html,body{margin:0;padding:0}
+.cm_widget select option{color:#333}
+.page_wrapper{width:1150px;margin:0 auto}
+.head_wrapper{min-height:110px}
+#logo{width:1150px;height:110px;position:absolute}
+#logo.cm_empty{display:none}
+.title_wrapper{max-width:1080px;padding:0 0 0 40px;position:relative;display:inline-block}
+.head_wrapper .title{line-height:60px !important;word-wrap:break-word}
+.title.cm_empty{display:none}
+.head_wrapper .subtitle{line-height:40px !important;word-wrap:break-word}
+.subtitle.cm_empty{display:none}
+.mobile_navigation{display:none}
+.mobile_navigation .fa-bars{margin:0 10px 0 0}
+.navigation_wrapper{position:relative}
+.navigation_wrapper ul{list-style:none;margin:0;padding:0}
+.navigation_wrapper li.cm_has_subnavigation>a:after{content:">";display:inline-block;position:absolute;vertical-align:middle;margin-left:8px;-webkit-transition:color .3s,background-color .3s;-moz-transition:color .3s,background-color .3s;transition:color .3s,background-color .3s}
+.navigation_wrapper>ul>li{display:inline-block;position:relative;padding:0;margin:0}
+.navigation_wrapper>ul>li>a{display:block;padding:10px 20px;word-wrap:break-word;-webkit-transition:color .3s,background-color .3s;-moz-transition:color .3s,background-color .3s;transition:color .3s,background-color .3s}
+.navigation_wrapper>ul>li>ul{transform-origin:center top;list-style:none;margin:0;padding:0;position:absolute;width:180px;z-index:300;display:none}
+.navigation_wrapper>ul>li:hover>ul{display:block}
+.navigation_wrapper>ul>li>ul>li{margin:0;padding:0;position:relative}
+.navigation_wrapper>ul>li>ul>li>a{display:block;padding:10px 20px;margin:0;word-wrap:break-word;-webkit-transition:color .3s,background-color .3s;-moz-transition:color .3s,background-color .3s;transition:color .3s,background-color .3s}
+.navigation_wrapper>ul>li>ul>li>ul{transform-origin:left;transform:scale(0,1);list-style:none;margin:0;padding:0;position:absolute;width:180px;left:180px;top:0;visibility:hidden;opacity:0;-webkit-transition:transform .3s ease-out .5s,visibility .3s ease-out .5s,opacity .3s ease-out .5s;-moz-transition:transform .3s ease-out .5s,visibility .3s ease-out .5s,opacity .3s ease-out .5s;transition:transform .3s ease-out .5s,visibility .3s ease-out .5s,opacity .3s ease-out .5s}
+.navigation_wrapper>ul>li:nth-child(n+5)>ul>li>ul,.navigation_wrapper>ul>li:last-child>ul>li>ul{transform-origin:right;left:auto;right:180px}
+.navigation_wrapper>ul>li>ul>li:hover>ul{transform:scale(1,1);visibility:visible;opacity:1;-webkit-transition:transform .3s ease-out 0,visibility .3s ease-out 0,opacity .3s ease-out 0;-moz-transition:transform .3s ease-out 0,visibility .3s ease-out 0,opacity .3s ease-out 0;transition:transform .3s ease-out 0,visibility .3s ease-out 0,opacity .3s ease-out 0}
+.navigation_wrapper>ul>li>ul>li>ul>li{margin:0;padding:0}
+.navigation_wrapper>ul>li>ul>li>ul>li>a{display:block;padding:10px 20px;word-wrap:break-word;-webkit-transition:color .3s,background-color .3s;-moz-transition:color .3s,background-color .3s;transition:color .3s,background-color .3s}
+#keyvisual,.cm-slides-addon{width:1150px;height:290px}
+.cm-template-keyvisual__media,.cm-slides-addon{background-repeat:no-repeat}
+.content_wrapper{padding:30px 40px;word-wrap:break-word}
+.design-content{display:inline-block;width:809px;vertical-align:top;margin:0 20px 30px 0}
+.sidebar_wrapper{display:inline-block;width:200px;padding:20px 10px}
+.sidebar_wrapper .sidebar{padding:0 10px}
+.sidebar_wrapper .sidebar ul,.sidebar_wrapper .sidebar ol{margin-left:6px}
+.footer_wrapper{text-align:center}
+.footer_wrapper a{text-decoration:none}
+#footer{padding:50px 0}
+#footer.cm_empty{display:none}
+@media only screen and (max-width:1250px){#keyvisual.cm-kv-0.cm-templates-kv-deprecated-px,#keyvisual.cm-kv-0.cm-templates-kv-deprecated-px .cm-slides-addon,#keyvisual.cm-kv-0 .cm-slides-addon.cm-templates-kv-deprecated-px{background-position:center !important;background-size:cover !important}
+}
+select option{color:#333}
+@media only screen and (max-width:767px) and (orientation :portrait){.cm-templates-heading__title,.cm-templates-heading__title span{font-size:8vw !important}
+.cm-templates-heading__subtitle,.cm-templates-heading__subtitle span{font-size:6vw !important}
+}
+@media only screen and (max-width:767px) and (orientation :landscape){.cm-templates-heading__title,.cm-templates-heading__title span{font-size:6vw !important}
+.cm-templates-heading__subtitle,.cm-templates-heading__subtitle span{font-size:4vw !important}
+}
+@media only screen and (min-width:768px) and (max-width:1280px) and (orientation :portrait){.cm-templates-heading__title,.cm-templates-heading__title span{font-size:5vw !important}
+.cm-templates-heading__subtitle,.cm-templates-heading__subtitle span{font-size:3vw !important}
+}
+@media only screen and (min-width:768px) and (max-width:1280px) and (orientation :landscape){.cm-templates-heading__title,.cm-templates-heading__title span{font-size:4vw !important}
+.cm-templates-heading__subtitle,.cm-templates-heading__subtitle span{font-size:2vw !important}
+}
